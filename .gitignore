@@ -36,3 +36,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+###  IntelliJ IDEA ###
+.idea/
+
+###  Конфігураційні файли IntelliJ IDEA ###
+.idea/dataSources.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
