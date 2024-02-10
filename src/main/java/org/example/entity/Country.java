@@ -10,7 +10,7 @@ import java.util.Set;
 
 @Getter
 @Setter
-@EqualsAndHashCode(exclude = "")
+@EqualsAndHashCode(exclude = "capital")
 @Entity
 @Table(name = "country", schema = "world")
 public class Country {
@@ -62,7 +62,7 @@ public class Country {
     @Column(name = "head_of_state")
     private String headOfState;
 
-    @OneToOne
+    @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "capital")
     private City capital;
 
