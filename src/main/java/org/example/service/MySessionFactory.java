@@ -26,13 +26,4 @@ public class MySessionFactory {
         }
         return instance.sessionFactory;
     }
-
-//    private void shutdown() {
-//        if (nonNull(sessionFactory)) {
-//            sessionFactory.close();
-//        }
-//        if (nonNull(redisClient)) {
-//            redisClient.shutdown();
-//        }
-//    }
 }

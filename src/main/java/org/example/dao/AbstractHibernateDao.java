@@ -6,7 +6,7 @@ import org.hibernate.query.Query;
 
 import java.util.List;
 
-public abstract class AbstractHibernateDao<T>  {
+public abstract class AbstractHibernateDao<T> {
     private final Class<T> clazz;
     private final SessionFactory sessionFactory;
 
