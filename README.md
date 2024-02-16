@@ -18,14 +18,13 @@ The project utilizes a relational MySQL database with a schema (country-city, la
 ### Action Plan
 
 
-- Docker Setup and MySQL Container Launch: The Docker environment was configured, and a MySQL container was launched to host the database.
-- Database Deployment: The database was deployed using the provided dump file.
-- Project Setup in IntelliJ IDEA: A new project was created in IntelliJ IDEA, and Maven dependencies were added to manage project libraries.
-- Domain Layer Creation: The domain layer was established, and a method to retrieve data from MySQL was implemented.
-- Data Transformation and Redis Storage: A method to transform and store data in Redis was developed to improve query performance.
-- Redis Container Initialization: The Redis container was started to be utilized it as a cache for frequently queried data.
-- Optional: redis-insight Installation: For visualizing data in Redis, redis-insight was installed (if needed).
-- Data Retrieval and Performance Comparison: Methods to retrieve data from MySQL and Redis were written, and a performance comparison was conducted to assess the efficiency of each approach.
+- Docker Configuration and MySQL Container Launch: Firstly, I configured the Docker environment and launched the MySQL container to create the database environment.
+- Database Deployment: Next, I deployed the database using the provided dump file to work with the project's data structure.
+- IntelliJ IDEA Project Setup: Afterward, I created a new project in IntelliJ IDEA and added all necessary Maven dependencies for effective library management.
+- Domain Layer Creation: Then, I proceeded to create the domain layer and wrote a method to retrieve data from MySQL to work with the project's core objects.
+- Data Transformation and Storage in Redis: Subsequently, I implemented a method to transform and store data in Redis to enhance query processing performance.
+- Redis Container Initialization: Following this, the Redis container was initialized to utilize it as a cache for frequently queried data.
+- Data Retrieval and Speed Comparison: Methods were written to retrieve data from MySQL and Redis, and a comparative analysis of data retrieval speed from both sources was conducted to evaluate the efficiency of each approach.
 
 ### Instructions to Run
 
